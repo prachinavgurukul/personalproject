@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#box1{
+  width: 1000px;
+  /* height: 350px; */
+  height: 500px;
+  border: 1px solid black;
+  margin:auto;
+  margin-top: 50px;
+}
+#header{
+  width: 1000px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: rgb(109, 109, 228);
+  /* text-align: center; */
+}
+p{
+  text-align: center;
+  margin-top: 10px;
+}
+/* #buttonbox{
+  width: 400px;
+  height: 50px;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-left: 20px;
+} */
+#addnewbtn,#retrivebtn{
+  background-color: rgb(102, 102, 208);
+  margin-left: 26px;
+  margin-top: 10px;
+  height: 35px;
+}
+#box2{
+  /* width: 650px; */
+  width: 900px;
+  height: 340px;
+  border: 1px solid rgb(210, 39, 39);
+  margin: auto;
+  margin-top: 30px;
+}
+#box2button{
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgb(38, 216, 77);
+  text-align: center;
+}
+/* #grid{
+  width: 640px;
+  height: 50px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin: auto;
+  margin-top: 32px;
+} */
+/* #gridElement1{
+  width: 104;
+  height: 23px;
+  border: 1px solid black;
+  background-color: rgb(109, 109, 228);
+} */
+/* #gridElement{
+  width: 104px;
+  height: 23px;
+  border: 1px solid black;
+  background-color: rgb(229, 237, 244);
+} */
+#addbtn{
+  /* margin-left: 535px; */
+  margin-left: 800px;
+  width: 80px;
+  margin-top: 180px;
+  background-color: rgb(102, 102, 208);
+}
+/* #a{
+  width: 60px;
+  height: 10px;
+  border: 2px solid rgb(230, 43, 217);
+  margin-left: 15px;
+} */
+#dele{
+  margin-left: 10px;
+  color: blue;
+}
+#save{
+  color: blue;
+}
+#boxretrive{
+  width: 400px;
+  height: 50px;
+  border: 1px solid rgb(224, 28, 80);
+  margin-top: 10px;
+  margin-left: 25px;
+}
+#findbtn{
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  margin-left: 450px;
+  margin-top: -52px;
+}
+#find{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(109, 109, 228);
+  /* margin-left: 500px; */
+  /* margin-top: -55px; */
+}
+table{
+  /* width:0vw; */
+  width: 0px;
+  height: 10vh;
+  border: 1px solid rgb(112, 193, 24);
+  margin-left: 5px;
+  margin-top: 10px;
+}
+tr,th{
+  /* width: 5vw; */
+  height: 5vh;
+  border: 2px solid rgb(224, 24, 24);
+}
+
